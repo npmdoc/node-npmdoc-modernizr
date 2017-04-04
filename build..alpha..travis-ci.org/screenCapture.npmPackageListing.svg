@@ -1,0 +1,337 @@
+<svg height="5342" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="5342" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-04 18:18:06 +0000   405208 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-04 18:18:06 +0000       48 byte  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-04 18:18:06 +0000     4557 byte  bin/modernizr</tspan>
+<tspan x="10" y="74">  3.  2017-04-04 18:18:06 +0000       34 byte  bin/modernizr.bat</tspan>
+<tspan x="10" y="90">  4.  2017-04-04 18:18:06 +0000      625 byte  feature-detects/a/download.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-04 18:18:06 +0000      489 byte  feature-detects/ambientlight.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-04 18:18:06 +0000      692 byte  feature-detects/applicationcache.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-04 18:18:06 +0000     1867 byte  feature-detects/audio.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-04 18:18:06 +0000      336 byte  feature-detects/audio/loop.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-04 18:18:06 +0000    17155 byte  feature-detects/audio/preload.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-04 18:18:06 +0000      804 byte  feature-detects/audio/webaudio.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-04 18:18:06 +0000      603 byte  feature-detects/battery.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-04 18:18:06 +0000      649 byte  feature-detects/battery/lowbattery.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-04 18:18:06 +0000      646 byte  feature-detects/blob.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-04 18:18:06 +0000      662 byte  feature-detects/canvas.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-04 18:18:06 +0000      954 byte  feature-detects/canvas/blending.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-04 18:18:06 +0000     1096 byte  feature-detects/canvas/todataurl.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-04 18:18:06 +0000      736 byte  feature-detects/canvas/winding.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-04 18:18:06 +0000      523 byte  feature-detects/canvastext.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-04 18:18:06 +0000      943 byte  feature-detects/contenteditable.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-04 18:18:06 +0000      591 byte  feature-detects/contextmenu.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-04 18:18:06 +0000     1159 byte  feature-detects/cookies.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-04 18:18:06 +0000      573 byte  feature-detects/cors.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-04 18:18:06 +0000      565 byte  feature-detects/crypto.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-04 18:18:06 +0000     1266 byte  feature-detects/crypto/getrandomvalues.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-04 18:18:06 +0000      457 byte  feature-detects/css/all.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-04 18:18:06 +0000      620 byte  feature-detects/css/animations.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-04 18:18:06 +0000      753 byte  feature-detects/css/appearance.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-04 18:18:06 +0000      870 byte  feature-detects/css/backdropfilter.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-04 18:18:06 +0000      752 byte  feature-detects/css/backgroundblendmode.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-04 18:18:06 +0000      800 byte  feature-detects/css/backgroundcliptext.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-04 18:18:06 +0000      994 byte  feature-detects/css/backgroundposition-shorthand.\</tspan>
+<tspan x="10" y="538">js</tspan>
+<tspan x="10" y="554"> 32.  2017-04-04 18:18:06 +0000      731 byte  feature-detects/css/backgroundposition-xy.js</tspan>
+<tspan x="10" y="570"> 33.  2017-04-04 18:18:06 +0000      822 byte  feature-detects/css/backgroundrepeat.js</tspan>
+<tspan x="10" y="586"> 34.  2017-04-04 18:18:06 +0000      478 byte  feature-detects/css/backgroundsize.js</tspan>
+<tspan x="10" y="602"> 35.  2017-04-04 18:18:06 +0000      477 byte  feature-detects/css/backgroundsizecover.js</tspan>
+<tspan x="10" y="618"> 36.  2017-04-04 18:18:06 +0000      378 byte  feature-detects/css/borderimage.js</tspan>
+<tspan x="10" y="634"> 37.  2017-04-04 18:18:06 +0000      447 byte  feature-detects/css/borderradius.js</tspan>
+<tspan x="10" y="650"> 38.  2017-04-04 18:18:06 +0000      378 byte  feature-detects/css/boxshadow.js</tspan>
+<tspan x="10" y="666"> 39.  2017-04-04 18:18:06 +0000      673 byte  feature-detects/css/boxsizing.js</tspan>
+<tspan x="10" y="682"> 40.  2017-04-04 18:18:06 +0000      618 byte  feature-detects/css/calc.js</tspan>
+<tspan x="10" y="698"> 41.  2017-04-04 18:18:06 +0000      756 byte  feature-detects/css/checked.js</tspan>
+<tspan x="10" y="714"> 42.  2017-04-04 18:18:06 +0000      595 byte  feature-detects/css/chunit.js</tspan>
+<tspan x="10" y="730"> 43.  2017-04-04 18:18:06 +0000     1103 byte  feature-detects/css/columns.js</tspan>
+<tspan x="10" y="746"> 44.  2017-04-04 18:18:06 +0000      788 byte  feature-detects/css/cubicbezierrange.js</tspan>
+<tspan x="10" y="762"> 45.  2017-04-04 18:18:06 +0000      556 byte  feature-detects/css/displayrunin.js</tspan>
+<tspan x="10" y="778"> 46.  2017-04-04 18:18:06 +0000      945 byte  feature-detects/css/displaytable.js</tspan>
+<tspan x="10" y="794"> 47.  2017-04-04 18:18:06 +0000      321 byte  feature-detects/css/ellipsis.js</tspan>
+<tspan x="10" y="810"> 48.  2017-04-04 18:18:06 +0000      340 byte  feature-detects/css/escape.js</tspan>
+<tspan x="10" y="826"> 49.  2017-04-04 18:18:06 +0000      595 byte  feature-detects/css/exunit.js</tspan>
+<tspan x="10" y="842"> 50.  2017-04-04 18:18:06 +0000      962 byte  feature-detects/css/filters.js</tspan>
+<tspan x="10" y="858"> 51.  2017-04-04 18:18:06 +0000      654 byte  feature-detects/css/flexbox.js</tspan>
+<tspan x="10" y="874"> 52.  2017-04-04 18:18:06 +0000      401 byte  feature-detects/css/flexboxlegacy.js</tspan>
+<tspan x="10" y="890"> 53.  2017-04-04 18:18:06 +0000      485 byte  feature-detects/css/flexboxtweener.js</tspan>
+<tspan x="10" y="906"> 54.  2017-04-04 18:18:06 +0000     1105 byte  feature-detects/css/flexwrap.js</tspan>
+<tspan x="10" y="922"> 55.  2017-04-04 18:18:06 +0000     1908 byte  feature-detects/css/fontface.js</tspan>
+<tspan x="10" y="938"> 56.  2017-04-04 18:18:06 +0000      869 byte  feature-detects/css/generatedcontent.js</tspan>
+<tspan x="10" y="954"> 57.  2017-04-04 18:18:06 +0000     1436 byte  feature-detects/css/gradients.js</tspan>
+<tspan x="10" y="970"> 58.  2017-04-04 18:18:06 +0000      736 byte  feature-detects/css/hairline.js</tspan>
+<tspan x="10" y="986"> 59.  2017-04-04 18:18:06 +0000      457 byte  feature-detects/css/hsla.js</tspan>
+<tspan x="10" y="1002"> 60.  2017-04-04 18:18:06 +0000    10238 byte  feature-detects/css/hyphens.js</tspan>
+<tspan x="10" y="1018"> 61.  2017-04-04 18:18:06 +0000      719 byte  feature-detects/css/invalid.js</tspan>
+<tspan x="10" y="1034"> 62.  2017-04-04 18:18:06 +0000      573 byte  feature-detects/css/lastchild.js</tspan>
+<tspan x="10" y="1050"> 63.  2017-04-04 18:18:06 +0000      843 byte  feature-detects/css/mask.js</tspan>
+<tspan x="10" y="1066"> 64.  2017-04-04 18:18:06 +0000      277 byte  feature-detects/css/mediaqueries.js</tspan>
+<tspan x="10" y="1082"> 65.  2017-04-04 18:18:06 +0000      841 byte  feature-detects/css/multiplebgs.js</tspan>
+<tspan x="10" y="1098"> 66.  2017-04-04 18:18:06 +0000     1222 byte  feature-detects/css/nthchild.js</tspan>
+<tspan x="10" y="1114"> 67.  2017-04-04 18:18:06 +0000      448 byte  feature-detects/css/objectfit.js</tspan>
+<tspan x="10" y="1130"> 68.  2017-04-04 18:18:06 +0000      766 byte  feature-detects/css/opacity.js</tspan>
+<tspan x="10" y="1146"> 69.  2017-04-04 18:18:06 +0000      550 byte  feature-detects/css/overflow-scrolling.js</tspan>
+<tspan x="10" y="1162"> 70.  2017-04-04 18:18:06 +0000      978 byte  feature-detects/css/pointerevents.js</tspan>
+<tspan x="10" y="1178"> 71.  2017-04-04 18:18:06 +0000      933 byte  feature-detects/css/positionsticky.js</tspan>
+<tspan x="10" y="1194"> 72.  2017-04-04 18:18:06 +0000      855 byte  feature-detects/css/pseudoanimations.js</tspan>
+<tspan x="10" y="1210"> 73.  2017-04-04 18:18:06 +0000      942 byte  feature-detects/css/pseudotransitions.js</tspan>
+<tspan x="10" y="1226"> 74.  2017-04-04 18:18:06 +0000      283 byte  feature-detects/css/reflections.js</tspan>
+<tspan x="10" y="1242"> 75.  2017-04-04 18:18:06 +0000     3627 byte  feature-detects/css/regions.js</tspan>
+<tspan x="10" y="1258"> 76.  2017-04-04 18:18:06 +0000      857 byte  feature-detects/css/remunit.js</tspan>
+<tspan x="10" y="1274"> 77.  2017-04-04 18:18:06 +0000      536 byte  feature-detects/css/resize.js</tspan>
+<tspan x="10" y="1290"> 78.  2017-04-04 18:18:06 +0000      508 byte  feature-detects/css/rgba.js</tspan>
+<tspan x="10" y="1306"> 79.  2017-04-04 18:18:06 +0000      556 byte  feature-detects/css/scrollbars.js</tspan>
+<tspan x="10" y="1322"> 80.  2017-04-04 18:18:06 +0000      640 byte  feature-detects/css/scrollsnappoints.js</tspan>
+<tspan x="10" y="1338"> 81.  2017-04-04 18:18:06 +0000      546 byte  feature-detects/css/shapes.js</tspan>
+<tspan x="10" y="1354"> 82.  2017-04-04 18:18:06 +0000      589 byte  feature-detects/css/siblinggeneral.js</tspan>
+<tspan x="10" y="1370"> 83.  2017-04-04 18:18:06 +0000      950 byte  feature-detects/css/subpixelfont.js</tspan>
+<tspan x="10" y="1386"> 84.  2017-04-04 18:18:06 +0000      698 byte  feature-detects/css/supports.js</tspan>
+<tspan x="10" y="1402"> 85.  2017-04-04 18:18:06 +0000      750 byte  feature-detects/css/target.js</tspan>
+<tspan x="10" y="1418"> 86.  2017-04-04 18:18:06 +0000      540 byte  feature-detects/css/textalignlast.js</tspan>
+<tspan x="10" y="1434"> 87.  2017-04-04 18:18:06 +0000      316 byte  feature-detects/css/textshadow.js</tspan>
+<tspan x="10" y="1450"> 88.  2017-04-04 18:18:06 +0000      456 byte  feature-detects/css/transforms.js</tspan>
+<tspan x="10" y="1466"> 89.  2017-04-04 18:18:06 +0000     1736 byte  feature-detects/css/transforms3d.js</tspan>
+<tspan x="10" y="1482"> 90.  2017-04-04 18:18:06 +0000      427 byte  feature-detects/css/transformslevel2.js</tspan>
+<tspan x="10" y="1498"> 91.  2017-04-04 18:18:06 +0000     1433 byte  feature-detects/css/transformstylepreserve3d.js</tspan>
+<tspan x="10" y="1514"> 92.  2017-04-04 18:18:06 +0000      281 byte  feature-detects/css/transitions.js</tspan>
+<tspan x="10" y="1530"> 93.  2017-04-04 18:18:06 +0000      522 byte  feature-detects/css/userselect.js</tspan>
+<tspan x="10" y="1546"> 94.  2017-04-04 18:18:06 +0000      678 byte  feature-detects/css/valid.js</tspan>
+<tspan x="10" y="1562"> 95.  2017-04-04 18:18:06 +0000      716 byte  feature-detects/css/vhunit.js</tspan>
+<tspan x="10" y="1578"> 96.  2017-04-04 18:18:06 +0000     1293 byte  feature-detects/css/vmaxunit.js</tspan>
+<tspan x="10" y="1594"> 97.  2017-04-04 18:18:06 +0000     1304 byte  feature-detects/css/vminunit.js</tspan>
+<tspan x="10" y="1610"> 98.  2017-04-04 18:18:06 +0000      712 byte  feature-detects/css/vwunit.js</tspan>
+<tspan x="10" y="1626"> 99.  2017-04-04 18:18:06 +0000      438 byte  feature-detects/css/will-change.js</tspan>
+<tspan x="10" y="1642">100.  2017-04-04 18:18:06 +0000     2096 byte  feature-detects/css/wrapflow.js</tspan>
+<tspan x="10" y="1658">101.  2017-04-04 18:18:06 +0000      463 byte  feature-detects/custom-elements.js</tspan>
+<tspan x="10" y="1674">102.  2017-04-04 18:18:06 +0000     1199 byte  feature-detects/custom-protocol-handler.js</tspan>
+<tspan x="10" y="1690">103.  2017-04-04 18:18:06 +0000      599 byte  feature-detects/customevent.js</tspan>
+<tspan x="10" y="1706">104.  2017-04-04 18:18:06 +0000      383 byte  feature-detects/dart.js</tspan>
+<tspan x="10" y="1722">105.  2017-04-04 18:18:06 +0000      567 byte  feature-detects/dataview-api.js</tspan>
+<tspan x="10" y="1738">106.  2017-04-04 18:18:06 +0000      392 byte  feature-detects/dom/classlist.js</tspan>
+<tspan x="10" y="1754">107.  2017-04-04 18:18:06 +0000      659 byte  feature-detects/dom/createElement-attrs.js</tspan>
+<tspan x="10" y="1770">108.  2017-04-04 18:18:06 +0000      461 byte  feature-detects/dom/dataset.js</tspan>
+<tspan x="10" y="1786">109.  2017-04-04 18:18:06 +0000      876 byte  feature-detects/dom/documentfragment.js</tspan>
+<tspan x="10" y="1802">110.  2017-04-04 18:18:06 +0000      655 byte  feature-detects/dom/hidden.js</tspan>
+<tspan x="10" y="1818">111.  2017-04-04 18:18:06 +0000      315 byte  feature-detects/dom/microdata.js</tspan>
+<tspan x="10" y="1834">112.  2017-04-04 18:18:06 +0000      573 byte  feature-detects/dom/mutationObserver.js</tspan>
+<tspan x="10" y="1850">113.  2017-04-04 18:18:06 +0000      896 byte  feature-detects/dom/passiveeventlisteners.js</tspan>
+<tspan x="10" y="1866">114.  2017-04-04 18:18:06 +0000      781 byte  feature-detects/elem/bdi.js</tspan>
+<tspan x="10" y="1882">115.  2017-04-04 18:18:06 +0000      721 byte  feature-detects/elem/datalist.js</tspan>
+<tspan x="10" y="1898">116.  2017-04-04 18:18:06 +0000      904 byte  feature-detects/elem/details.js</tspan>
+<tspan x="10" y="1914">117.  2017-04-04 18:18:06 +0000      405 byte  feature-detects/elem/output.js</tspan>
+<tspan x="10" y="1930">118.  2017-04-04 18:18:06 +0000      459 byte  feature-detects/elem/picture.js</tspan>
+<tspan x="10" y="1946">119.  2017-04-04 18:18:06 +0000      628 byte  feature-detects/elem/progress-meter.js</tspan>
+<tspan x="10" y="1962">120.  2017-04-04 18:18:06 +0000     2018 byte  feature-detects/elem/ruby.js</tspan>
+<tspan x="10" y="1978">121.  2017-04-04 18:18:06 +0000      486 byte  feature-detects/elem/template.js</tspan>
+<tspan x="10" y="1994">122.  2017-04-04 18:18:06 +0000      395 byte  feature-detects/elem/time.js</tspan>
+<tspan x="10" y="2010">123.  2017-04-04 18:18:06 +0000      933 byte  feature-detects/elem/track.js</tspan>
+<tspan x="10" y="2026">124.  2017-04-04 18:18:06 +0000      767 byte  feature-detects/elem/unknown.js</tspan>
+<tspan x="10" y="2042">125.  2017-04-04 18:18:06 +0000      682 byte  feature-detects/emoji.js</tspan>
+<tspan x="10" y="2058">126.  2017-04-04 18:18:06 +0000      809 byte  feature-detects/es5/array.js</tspan>
+<tspan x="10" y="2074">127.  2017-04-04 18:18:06 +0000      788 byte  feature-detects/es5/date.js</tspan>
+<tspan x="10" y="2090">128.  2017-04-04 18:18:06 +0000      534 byte  feature-detects/es5/function.js</tspan>
+<tspan x="10" y="2106">129.  2017-04-04 18:18:06 +0000      855 byte  feature-detects/es5/object.js</tspan>
+<tspan x="10" y="2122">130.  2017-04-04 18:18:06 +0000      907 byte  feature-detects/es5/specification.js</tspan>
+<tspan x="10" y="2138">131.  2017-04-04 18:18:06 +0000      518 byte  feature-detects/es5/strictmode.js</tspan>
+<tspan x="10" y="2154">132.  2017-04-04 18:18:06 +0000      522 byte  feature-detects/es5/string.js</tspan>
+<tspan x="10" y="2170">133.  2017-04-04 18:18:06 +0000     1375 byte  feature-detects/es5/syntax.js</tspan>
+<tspan x="10" y="2186">134.  2017-04-04 18:18:06 +0000      866 byte  feature-detects/es5/undefined.js</tspan>
+<tspan x="10" y="2202">135.  2017-04-04 18:18:06 +0000      851 byte  feature-detects/es6/array.js</tspan>
+<tspan x="10" y="2218">136.  2017-04-04 18:18:06 +0000      428 byte  feature-detects/es6/arrow.js</tspan>
+<tspan x="10" y="2234">137.  2017-04-04 18:18:06 +0000      692 byte  feature-detects/es6/collections.js</tspan>
+<tspan x="10" y="2250">138.  2017-04-04 18:18:06 +0000      365 byte  feature-detects/es6/contains.js</tspan>
+<tspan x="10" y="2266">139.  2017-04-04 18:18:06 +0000      423 byte  feature-detects/es6/generators.js</tspan>
+<tspan x="10" y="2282">140.  2017-04-04 18:18:06 +0000      890 byte  feature-detects/es6/math.js</tspan>
+<tspan x="10" y="2298">141.  2017-04-04 18:18:06 +0000      866 byte  feature-detects/es6/number.js</tspan>
+<tspan x="10" y="2314">142.  2017-04-04 18:18:06 +0000      653 byte  feature-detects/es6/object.js</tspan>
+<tspan x="10" y="2330">143.  2017-04-04 18:18:06 +0000     1258 byte  feature-detects/es6/promises.js</tspan>
+<tspan x="10" y="2346">144.  2017-04-04 18:18:06 +0000      800 byte  feature-detects/es6/string.js</tspan>
+<tspan x="10" y="2362">145.  2017-04-04 18:18:06 +0000     1033 byte  feature-detects/event/deviceorientation-motion.js</tspan>
+<tspan x="10" y="2378">146.  2017-04-04 18:18:06 +0000     1944 byte  feature-detects/event/oninput.js</tspan>
+<tspan x="10" y="2394">147.  2017-04-04 18:18:06 +0000      461 byte  feature-detects/eventlistener.js</tspan>
+<tspan x="10" y="2410">148.  2017-04-04 18:18:06 +0000     2251 byte  feature-detects/exif-orientation.js</tspan>
+<tspan x="10" y="2426">149.  2017-04-04 18:18:06 +0000      723 byte  feature-detects/file/api.js</tspan>
+<tspan x="10" y="2442">150.  2017-04-04 18:18:06 +0000      572 byte  feature-detects/file/filesystem.js</tspan>
+<tspan x="10" y="2458">151.  2017-04-04 18:18:06 +0000     3877 byte  feature-detects/flash.js</tspan>
+<tspan x="10" y="2474">152.  2017-04-04 18:18:06 +0000     1295 byte  feature-detects/forcetouch.js</tspan>
+<tspan x="10" y="2490">153.  2017-04-04 18:18:06 +0000      609 byte  feature-detects/forms/capture.js</tspan>
+<tspan x="10" y="2506">154.  2017-04-04 18:18:06 +0000      728 byte  feature-detects/forms/fileinput.js</tspan>
+<tspan x="10" y="2522">155.  2017-04-04 18:18:06 +0000      812 byte  feature-detects/forms/fileinputdirectory.js</tspan>
+<tspan x="10" y="2538">156.  2017-04-04 18:18:06 +0000     1240 byte  feature-detects/forms/formattribute.js</tspan>
+<tspan x="10" y="2554">157.  2017-04-04 18:18:06 +0000     2035 byte  feature-detects/forms/inputnumber-l10n.js</tspan>
+<tspan x="10" y="2570">158.  2017-04-04 18:18:06 +0000      423 byte  feature-detects/forms/placeholder.js</tspan>
+<tspan x="10" y="2586">159.  2017-04-04 18:18:06 +0000      651 byte  feature-detects/forms/requestautocomplete.js</tspan>
+<tspan x="10" y="2602">160.  2017-04-04 18:18:06 +0000     2270 byte  feature-detects/forms/validation.js</tspan>
+<tspan x="10" y="2618">161.  2017-04-04 18:18:06 +0000      637 byte  feature-detects/fullscreen-api.js</tspan>
+<tspan x="10" y="2634">162.  2017-04-04 18:18:06 +0000      600 byte  feature-detects/gamepad.js</tspan>
+<tspan x="10" y="2650">163.  2017-04-04 18:18:06 +0000     1060 byte  feature-detects/geolocation.js</tspan>
+<tspan x="10" y="2666">164.  2017-04-04 18:18:06 +0000      859 byte  feature-detects/hashchange.js</tspan>
+<tspan x="10" y="2682">165.  2017-04-04 18:18:06 +0000      890 byte  feature-detects/hiddenscroll.js</tspan>
+<tspan x="10" y="2698">166.  2017-04-04 18:18:06 +0000     1579 byte  feature-detects/history.js</tspan>
+<tspan x="10" y="2714">167.  2017-04-04 18:18:06 +0000      660 byte  feature-detects/htmlimports.js</tspan>
+<tspan x="10" y="2730">168.  2017-04-04 18:18:06 +0000      558 byte  feature-detects/ie8compat.js</tspan>
+<tspan x="10" y="2746">169.  2017-04-04 18:18:06 +0000      536 byte  feature-detects/iframe/sandbox.js</tspan>
+<tspan x="10" y="2762">170.  2017-04-04 18:18:06 +0000      487 byte  feature-detects/iframe/seamless.js</tspan>
+<tspan x="10" y="2778">171.  2017-04-04 18:18:06 +0000      473 byte  feature-detects/iframe/srcdoc.js</tspan>
+<tspan x="10" y="2794">172.  2017-04-04 18:18:06 +0000     1152 byte  feature-detects/img/apng.js</tspan>
+<tspan x="10" y="2810">173.  2017-04-04 18:18:06 +0000      537 byte  feature-detects/img/crossorigin.js</tspan>
+<tspan x="10" y="2826">174.  2017-04-04 18:18:06 +0000      865 byte  feature-detects/img/jpeg2000.js</tspan>
+<tspan x="10" y="2842">175.  2017-04-04 18:18:06 +0000      758 byte  feature-detects/img/jpegxr.js</tspan>
+<tspan x="10" y="2858">176.  2017-04-04 18:18:06 +0000     1289 byte  feature-detects/img/sizes.js</tspan>
+<tspan x="10" y="2874">177.  2017-04-04 18:18:06 +0000      569 byte  feature-detects/img/srcset.js</tspan>
+<tspan x="10" y="2890">178.  2017-04-04 18:18:06 +0000     1169 byte  feature-detects/img/webp-alpha.js</tspan>
+<tspan x="10" y="2906">179.  2017-04-04 18:18:06 +0000     1108 byte  feature-detects/img/webp-animation.js</tspan>
+<tspan x="10" y="2922">180.  2017-04-04 18:18:06 +0000      956 byte  feature-detects/img/webp-lossless.js</tspan>
+<tspan x="10" y="2938">181.  2017-04-04 18:18:06 +0000     3176 byte  feature-detects/img/webp.js</tspan>
+<tspan x="10" y="2954">182.  2017-04-04 18:18:06 +0000     1731 byte  feature-detects/indexeddb.js</tspan>
+<tspan x="10" y="2970">183.  2017-04-04 18:18:06 +0000     2005 byte  feature-detects/indexeddbblob.js</tspan>
+<tspan x="10" y="2986">184.  2017-04-04 18:18:06 +0000     1840 byte  feature-detects/input.js</tspan>
+<tspan x="10" y="3002">185.  2017-04-04 18:18:06 +0000      647 byte  feature-detects/input/formaction.js</tspan>
+<tspan x="10" y="3018">186.  2017-04-04 18:18:06 +0000      705 byte  feature-detects/input/formenctype.js</tspan>
+<tspan x="10" y="3034">187.  2017-04-04 18:18:06 +0000      579 byte  feature-detects/input/formmethod.js</tspan>
+<tspan x="10" y="3050">188.  2017-04-04 18:18:06 +0000      695 byte  feature-detects/input/formtarget.js</tspan>
+<tspan x="10" y="3066">189.  2017-04-04 18:18:06 +0000      590 byte  feature-detects/inputsearchevent.js</tspan>
+<tspan x="10" y="3082">190.  2017-04-04 18:18:06 +0000     3564 byte  feature-detects/inputtypes.js</tspan>
+<tspan x="10" y="3098">191.  2017-04-04 18:18:06 +0000      580 byte  feature-detects/intl.js</tspan>
+<tspan x="10" y="3114">192.  2017-04-04 18:18:06 +0000      543 byte  feature-detects/json.js</tspan>
+<tspan x="10" y="3130">193.  2017-04-04 18:18:06 +0000      435 byte  feature-detects/ligatures.js</tspan>
+<tspan x="10" y="3146">194.  2017-04-04 18:18:06 +0000      469 byte  feature-detects/lists-reversed.js</tspan>
+<tspan x="10" y="3162">195.  2017-04-04 18:18:06 +0000      945 byte  feature-detects/mathml.js</tspan>
+<tspan x="10" y="3178">196.  2017-04-04 18:18:06 +0000      355 byte  feature-detects/mediaquery/hovermq.js</tspan>
+<tspan x="10" y="3194">197.  2017-04-04 18:18:06 +0000      402 byte  feature-detects/mediaquery/pointermq.js</tspan>
+<tspan x="10" y="3210">198.  2017-04-04 18:18:06 +0000      721 byte  feature-detects/messagechannel.js</tspan>
+<tspan x="10" y="3226">199.  2017-04-04 18:18:06 +0000      617 byte  feature-detects/network/beacon.js</tspan>
+<tspan x="10" y="3242">200.  2017-04-04 18:18:06 +0000     1150 byte  feature-detects/network/connection.js</tspan>
+<tspan x="10" y="3258">201.  2017-04-04 18:18:06 +0000      435 byte  feature-detects/network/eventsource.js</tspan>
+<tspan x="10" y="3274">202.  2017-04-04 18:18:06 +0000      413 byte  feature-detects/network/fetch.js</tspan>
+<tspan x="10" y="3290">203.  2017-04-04 18:18:06 +0000      480 byte  feature-detects/network/xhr-responsetype-arraybuf\</tspan>
+<tspan x="10" y="3306">fer.js</tspan>
+<tspan x="10" y="3322">204.  2017-04-04 18:18:06 +0000      445 byte  feature-detects/network/xhr-responsetype-blob.js</tspan>
+<tspan x="10" y="3338">205.  2017-04-04 18:18:06 +0000      465 byte  feature-detects/network/xhr-responsetype-document\</tspan>
+<tspan x="10" y="3354">.js</tspan>
+<tspan x="10" y="3370">206.  2017-04-04 18:18:06 +0000      572 byte  feature-detects/network/xhr-responsetype-json.js</tspan>
+<tspan x="10" y="3386">207.  2017-04-04 18:18:06 +0000      445 byte  feature-detects/network/xhr-responsetype-text.js</tspan>
+<tspan x="10" y="3402">208.  2017-04-04 18:18:06 +0000      568 byte  feature-detects/network/xhr-responsetype.js</tspan>
+<tspan x="10" y="3418">209.  2017-04-04 18:18:06 +0000      716 byte  feature-detects/network/xhr2.js</tspan>
+<tspan x="10" y="3434">210.  2017-04-04 18:18:06 +0000     1315 byte  feature-detects/notification.js</tspan>
+<tspan x="10" y="3450">211.  2017-04-04 18:18:06 +0000      851 byte  feature-detects/pagevisibility-api.js</tspan>
+<tspan x="10" y="3466">212.  2017-04-04 18:18:06 +0000      661 byte  feature-detects/performance.js</tspan>
+<tspan x="10" y="3482">213.  2017-04-04 18:18:06 +0000     1166 byte  feature-detects/pointerevents.js</tspan>
+<tspan x="10" y="3498">214.  2017-04-04 18:18:06 +0000      566 byte  feature-detects/pointerlock-api.js</tspan>
+<tspan x="10" y="3514">215.  2017-04-04 18:18:06 +0000      463 byte  feature-detects/postmessage.js</tspan>
+<tspan x="10" y="3530">216.  2017-04-04 18:18:06 +0000     1777 byte  feature-detects/proximity.js</tspan>
+<tspan x="10" y="3546">217.  2017-04-04 18:18:06 +0000      535 byte  feature-detects/queryselector.js</tspan>
+<tspan x="10" y="3562">218.  2017-04-04 18:18:06 +0000      635 byte  feature-detects/quota-management-api.js</tspan>
+<tspan x="10" y="3578">219.  2017-04-04 18:18:06 +0000      651 byte  feature-detects/requestanimationframe.js</tspan>
+<tspan x="10" y="3594">220.  2017-04-04 18:18:06 +0000      424 byte  feature-detects/script/async.js</tspan>
+<tspan x="10" y="3610">221.  2017-04-04 18:18:06 +0000      626 byte  feature-detects/script/defer.js</tspan>
+<tspan x="10" y="3626">222.  2017-04-04 18:18:06 +0000      474 byte  feature-detects/serviceworker.js</tspan>
+<tspan x="10" y="3642">223.  2017-04-04 18:18:06 +0000      689 byte  feature-detects/speech/speech-recognition.js</tspan>
+<tspan x="10" y="3658">224.  2017-04-04 18:18:06 +0000      473 byte  feature-detects/speech/speech-synthesis.js</tspan>
+<tspan x="10" y="3674">225.  2017-04-04 18:18:06 +0000     1466 byte  feature-detects/storage/localstorage.js</tspan>
+<tspan x="10" y="3690">226.  2017-04-04 18:18:06 +0000      677 byte  feature-detects/storage/sessionstorage.js</tspan>
+<tspan x="10" y="3706">227.  2017-04-04 18:18:06 +0000      340 byte  feature-detects/storage/websqldatabase.js</tspan>
+<tspan x="10" y="3722">228.  2017-04-04 18:18:06 +0000      587 byte  feature-detects/style/scoped.js</tspan>
+<tspan x="10" y="3738">229.  2017-04-04 18:18:06 +0000      521 byte  feature-detects/svg.js</tspan>
+<tspan x="10" y="3754">230.  2017-04-04 18:18:06 +0000      882 byte  feature-detects/svg/asimg.js</tspan>
+<tspan x="10" y="3770">231.  2017-04-04 18:18:06 +0000      691 byte  feature-detects/svg/clippaths.js</tspan>
+<tspan x="10" y="3786">232.  2017-04-04 18:18:06 +0000      696 byte  feature-detects/svg/filters.js</tspan>
+<tspan x="10" y="3802">233.  2017-04-04 18:18:06 +0000      544 byte  feature-detects/svg/foreignobject.js</tspan>
+<tspan x="10" y="3818">234.  2017-04-04 18:18:06 +0000      801 byte  feature-detects/svg/inline.js</tspan>
+<tspan x="10" y="3834">235.  2017-04-04 18:18:06 +0000      513 byte  feature-detects/svg/smil.js</tspan>
+<tspan x="10" y="3850">236.  2017-04-04 18:18:06 +0000      695 byte  feature-detects/templatestrings.js</tspan>
+<tspan x="10" y="3866">237.  2017-04-04 18:18:06 +0000      530 byte  feature-detects/textarea/maxlength.js</tspan>
+<tspan x="10" y="3882">238.  2017-04-04 18:18:06 +0000     2182 byte  feature-detects/touchevents.js</tspan>
+<tspan x="10" y="3898">239.  2017-04-04 18:18:06 +0000      941 byte  feature-detects/typed-arrays.js</tspan>
+<tspan x="10" y="3914">240.  2017-04-04 18:18:06 +0000     1427 byte  feature-detects/unicode-range.js</tspan>
+<tspan x="10" y="3930">241.  2017-04-04 18:18:06 +0000     1315 byte  feature-detects/unicode.js</tspan>
+<tspan x="10" y="3946">242.  2017-04-04 18:18:06 +0000      556 byte  feature-detects/url/bloburls.js</tspan>
+<tspan x="10" y="3962">243.  2017-04-04 18:18:06 +0000     2375 byte  feature-detects/url/data-uri.js</tspan>
+<tspan x="10" y="3978">244.  2017-04-04 18:18:06 +0000      680 byte  feature-detects/url/parser.js</tspan>
+<tspan x="10" y="3994">245.  2017-04-04 18:18:06 +0000      644 byte  feature-detects/url/urlsearchparams.js</tspan>
+<tspan x="10" y="4010">246.  2017-04-04 18:18:06 +0000      514 byte  feature-detects/userdata.js</tspan>
+<tspan x="10" y="4026">247.  2017-04-04 18:18:06 +0000      546 byte  feature-detects/vibration.js</tspan>
+<tspan x="10" y="4042">248.  2017-04-04 18:18:06 +0000     2017 byte  feature-detects/video.js</tspan>
+<tspan x="10" y="4058">249.  2017-04-04 18:18:06 +0000     9088 byte  feature-detects/video/autoplay.js</tspan>
+<tspan x="10" y="4074">250.  2017-04-04 18:18:06 +0000      505 byte  feature-detects/video/crossorigin.js</tspan>
+<tspan x="10" y="4090">251.  2017-04-04 18:18:06 +0000      250 byte  feature-detects/video/loop.js</tspan>
+<tspan x="10" y="4106">252.  2017-04-04 18:18:06 +0000      262 byte  feature-detects/video/preload.js</tspan>
+<tspan x="10" y="4122">253.  2017-04-04 18:18:06 +0000      916 byte  feature-detects/vml.js</tspan>
+<tspan x="10" y="4138">254.  2017-04-04 18:18:06 +0000      891 byte  feature-detects/web-intents.js</tspan>
+<tspan x="10" y="4154">255.  2017-04-04 18:18:06 +0000      518 byte  feature-detects/webanimations.js</tspan>
+<tspan x="10" y="4170">256.  2017-04-04 18:18:06 +0000      594 byte  feature-detects/webgl.js</tspan>
+<tspan x="10" y="4186">257.  2017-04-04 18:18:06 +0000     1726 byte  feature-detects/webgl/extensions.js</tspan>
+<tspan x="10" y="4202">258.  2017-04-04 18:18:06 +0000      890 byte  feature-detects/webrtc/datachannel.js</tspan>
+<tspan x="10" y="4218">259.  2017-04-04 18:18:06 +0000      451 byte  feature-detects/webrtc/getusermedia.js</tspan>
+<tspan x="10" y="4234">260.  2017-04-04 18:18:06 +0000      375 byte  feature-detects/webrtc/peerconnection.js</tspan>
+<tspan x="10" y="4250">261.  2017-04-04 18:18:06 +0000      862 byte  feature-detects/websockets.js</tspan>
+<tspan x="10" y="4266">262.  2017-04-04 18:18:06 +0000      788 byte  feature-detects/websockets/binary.js</tspan>
+<tspan x="10" y="4282">263.  2017-04-04 18:18:06 +0000      723 byte  feature-detects/window/atob-btoa.js</tspan>
+<tspan x="10" y="4298">264.  2017-04-04 18:18:06 +0000      319 byte  feature-detects/window/framed.js</tspan>
+<tspan x="10" y="4314">265.  2017-04-04 18:18:06 +0000      623 byte  feature-detects/window/matchmedia.js</tspan>
+<tspan x="10" y="4330">266.  2017-04-04 18:18:06 +0000     2150 byte  feature-detects/workers/blobworkers.js</tspan>
+<tspan x="10" y="4346">267.  2017-04-04 18:18:06 +0000     1221 byte  feature-detects/workers/dataworkers.js</tspan>
+<tspan x="10" y="4362">268.  2017-04-04 18:18:06 +0000      472 byte  feature-detects/workers/sharedworkers.js</tspan>
+<tspan x="10" y="4378">269.  2017-04-04 18:18:06 +0000     1909 byte  feature-detects/workers/transferables.js</tspan>
+<tspan x="10" y="4394">270.  2017-04-04 18:18:06 +0000      787 byte  feature-detects/workers/webworkers.js</tspan>
+<tspan x="10" y="4410">271.  2017-04-04 18:18:06 +0000      581 byte  feature-detects/xdomainrequest.js</tspan>
+<tspan x="10" y="4426">272.  2017-04-04 18:18:06 +0000     1738 byte  lib/build-query.js</tspan>
+<tspan x="10" y="4442">273.  2017-04-04 18:18:06 +0000     4827 byte  lib/build.js</tspan>
+<tspan x="10" y="4458">274.  2017-04-04 18:18:06 +0000      134 byte  lib/cli.js</tspan>
+<tspan x="10" y="4474">275.  2017-04-04 18:18:06 +0000     6109 byte  lib/config-all.json</tspan>
+<tspan x="10" y="4490">276.  2017-04-04 18:18:06 +0000     1620 byte  lib/generate-banner.js</tspan>
+<tspan x="10" y="4506">277.  2017-04-04 18:18:06 +0000     3743 byte  lib/metadata.js</tspan>
+<tspan x="10" y="4522">278.  2017-04-04 18:18:06 +0000     2360 byte  lib/options.js</tspan>
+<tspan x="10" y="4538">279.  2017-04-04 18:18:06 +0000    24151 byte  lib/polyfills.json</tspan>
+<tspan x="10" y="4554">280.  2017-04-04 18:18:06 +0000     4417 byte  package.json</tspan>
+<tspan x="10" y="4570">281.  2017-04-04 18:18:06 +0000     3427 byte  readme.md</tspan>
+<tspan x="10" y="4586">282.  2017-04-04 18:18:06 +0000      407 byte  src/Modernizr.js</tspan>
+<tspan x="10" y="4602">283.  2017-04-04 18:18:06 +0000     1276 byte  src/ModernizrProto.js</tspan>
+<tspan x="10" y="4618">284.  2017-04-04 18:18:06 +0000     7131 byte  src/addTest.js</tspan>
+<tspan x="10" y="4634">285.  2017-04-04 18:18:06 +0000     1758 byte  src/atRule.js</tspan>
+<tspan x="10" y="4650">286.  2017-04-04 18:18:06 +0000       62 byte  src/classes.js</tspan>
+<tspan x="10" y="4666">287.  2017-04-04 18:18:06 +0000     1144 byte  src/computedStyle.js</tspan>
+<tspan x="10" y="4682">288.  2017-04-04 18:18:06 +0000      430 byte  src/contains.js</tspan>
+<tspan x="10" y="4698">289.  2017-04-04 18:18:06 +0000      992 byte  src/createElement.js</tspan>
+<tspan x="10" y="4714">290.  2017-04-04 18:18:06 +0000      515 byte  src/cssToDOM.js</tspan>
+<tspan x="10" y="4730">291.  2017-04-04 18:18:06 +0000      246 byte  src/cssomPrefixes.js</tspan>
+<tspan x="10" y="4746">292.  2017-04-04 18:18:06 +0000      283 byte  src/docElement.js</tspan>
+<tspan x="10" y="4762">293.  2017-04-04 18:18:06 +0000      751 byte  src/domPrefixes.js</tspan>
+<tspan x="10" y="4778">294.  2017-04-04 18:18:06 +0000      510 byte  src/domToCSS.js</tspan>
+<tspan x="10" y="4794">295.  2017-04-04 18:18:06 +0000      572 byte  src/fnBind.js</tspan>
+<tspan x="10" y="4810">296.  2017-04-04 18:18:06 +0000     2649 byte  src/generate.js</tspan>
+<tspan x="10" y="4826">297.  2017-04-04 18:18:06 +0000      731 byte  src/getBody.js</tspan>
+<tspan x="10" y="4842">298.  2017-04-04 18:18:06 +0000     2552 byte  src/hasEvent.js</tspan>
+<tspan x="10" y="4858">299.  2017-04-04 18:18:06 +0000     1129 byte  src/hasOwnProp.js</tspan>
+<tspan x="10" y="4874">300.  2017-04-04 18:18:06 +0000    18772 byte  src/html5printshiv.js</tspan>
+<tspan x="10" y="4890">301.  2017-04-04 18:18:06 +0000    12188 byte  src/html5shiv.js</tspan>
+<tspan x="10" y="4906">302.  2017-04-04 18:18:06 +0000     2743 byte  src/injectElementWithStyles.js</tspan>
+<tspan x="10" y="4922">303.  2017-04-04 18:18:06 +0000      376 byte  src/inputElem.js</tspan>
+<tspan x="10" y="4938">304.  2017-04-04 18:18:06 +0000      371 byte  src/is.js</tspan>
+<tspan x="10" y="4954">305.  2017-04-04 18:18:06 +0000      276 byte  src/isSVG.js</tspan>
+<tspan x="10" y="4970">306.  2017-04-04 18:18:06 +0000     1546 byte  src/load.js</tspan>
+<tspan x="10" y="4986">307.  2017-04-04 18:18:06 +0000      317 byte  src/mStyle.js</tspan>
+<tspan x="10" y="5002">308.  2017-04-04 18:18:06 +0000      360 byte  src/modElem.js</tspan>
+<tspan x="10" y="5018">309.  2017-04-04 18:18:06 +0000     2031 byte  src/mq.js</tspan>
+<tspan x="10" y="5034">310.  2017-04-04 18:18:06 +0000     1735 byte  src/nativeTestProps.js</tspan>
+<tspan x="10" y="5050">311.  2017-04-04 18:18:06 +0000      708 byte  src/omPrefixes.js</tspan>
+<tspan x="10" y="5066">312.  2017-04-04 18:18:06 +0000     3164 byte  src/prefixed.js</tspan>
+<tspan x="10" y="5082">313.  2017-04-04 18:18:06 +0000     1289 byte  src/prefixedCSS.js</tspan>
+<tspan x="10" y="5098">314.  2017-04-04 18:18:06 +0000     1528 byte  src/prefixedCSSValue.js</tspan>
+<tspan x="10" y="5114">315.  2017-04-04 18:18:06 +0000     1680 byte  src/prefixes.js</tspan>
+<tspan x="10" y="5130">316.  2017-04-04 18:18:06 +0000      362 byte  src/roundedEquals.js</tspan>
+<tspan x="10" y="5146">317.  2017-04-04 18:18:06 +0000     1190 byte  src/setClasses.js</tspan>
+<tspan x="10" y="5162">318.  2017-04-04 18:18:06 +0000      335 byte  src/slice.js</tspan>
+<tspan x="10" y="5178">319.  2017-04-04 18:18:06 +0000     1500 byte  src/testAllProps.js</tspan>
+<tspan x="10" y="5194">320.  2017-04-04 18:18:06 +0000     1200 byte  src/testDOMProps.js</tspan>
+<tspan x="10" y="5210">321.  2017-04-04 18:18:06 +0000     1394 byte  src/testProp.js</tspan>
+<tspan x="10" y="5226">322.  2017-04-04 18:18:06 +0000     3367 byte  src/testProps.js</tspan>
+<tspan x="10" y="5242">323.  2017-04-04 18:18:06 +0000     2016 byte  src/testPropsAll.js</tspan>
+<tspan x="10" y="5258">324.  2017-04-04 18:18:06 +0000     2712 byte  src/testRunner.js</tspan>
+<tspan x="10" y="5274">325.  2017-04-04 18:18:06 +0000     2823 byte  src/testStyles.js</tspan>
+<tspan x="10" y="5290">326.  2017-04-04 18:18:06 +0000      667 byte  src/testXhrType.js</tspan>
+<tspan x="10" y="5306">327.  2017-04-04 18:18:06 +0000       58 byte  src/tests.js</tspan>
+<tspan x="10" y="5322">328.  2017-04-04 18:18:06 +0000      412 byte  src/toStringFn.js</tspan>
+</text>
+</svg>
