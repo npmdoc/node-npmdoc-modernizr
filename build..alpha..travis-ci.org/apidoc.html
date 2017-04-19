@@ -51,7 +51,7 @@
 
         href="https://github.com/Modernizr/Modernizr#readme"
 
-    >modernizr (v3.4.0)</a>
+    >modernizr (v3.5.0)</a>
 </h1>
 <h4>Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</h4>
 <div class="apidocSectionDiv"><a
@@ -83,6 +83,43 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.modernizr.options">
             function <span class="apidocSignatureSpan">modernizr.</span>options
+            <span class="apidocSignatureSpan">(cb, allMetadata)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">modernizr.</span>cli</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.modernizr.cli">module modernizr.cli</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.modernizr.cli.build">
+            function <span class="apidocSignatureSpan">modernizr.cli.</span>build
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.modernizr.cli.metadata">
+            function <span class="apidocSignatureSpan">modernizr.cli.</span>metadata
+            <span class="apidocSignatureSpan">(cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.modernizr.cli.options">
+            function <span class="apidocSignatureSpan">modernizr.cli.</span>options
             <span class="apidocSignatureSpan">(cb, allMetadata)</span>
             </a>
 
@@ -275,6 +312,280 @@ The second parameter is a function invoked on task completion.
     <h2>
         <a href="#apidoc.element.modernizr.options" id="apidoc.element.modernizr.options">
         function <span class="apidocSignatureSpan">modernizr.</span>options
+        <span class="apidocSignatureSpan">(cb, allMetadata)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function options(cb, allMetadata) {
+  var opts;
+
+  file.walkSync(srcRoot, function(start, dirs, files) {
+    opts = _.chain(files)
+      .map(function(file) {
+        var srcFile = fs.readFileSync(start + &#x27;/&#x27; + file, &#x27;utf8&#x27;);
+        var docs = srcFile.match(jsdocRE);
+
+        if (docs) {
+          docs = docs
+            .map(stripComments)
+            .map(function(str) {
+              return jsdoc.parse(str, {
+                sloppy: true,
+                tags: [
+                  &#x27;access&#x27;,
+                  &#x27;author&#x27;,
+                  &#x27;class&#x27;,
+                  &#x27;example&#x27;,
+                  &#x27;function&#x27;,
+                  &#x27;memberOf&#x27;,
+                  &#x27;memberof&#x27;,
+                  &#x27;name&#x27;,
+                  &#x27;optionName&#x27;,
+                  &#x27;optionProp&#x27;,
+                  &#x27;param&#x27;,
+                  &#x27;params&#x27;,
+                  &#x27;preserve&#x27;,
+                  &#x27;private&#x27;,
+                  &#x27;returns&#x27;,
+                  &#x27;type&#x27;
+                ]
+              });
+            });
+
+          var option = _.chain(docs)
+            .flatten()
+            .filter(function(doc) {
+              if (allMetadata) {
+                return true;
+              } else {
+                return doc &#x26;&#x26; _.some(doc.tags, {title: &#x27;optionName&#x27;});
+              }
+            })
+            .map(function(opt) {
+              if (allMetadata) {
+                return opt;
+              } else {
+                var tags = opt.tags.filter(function(tag) {
+                  return tag.title.indexOf(&#x27;option&#x27;) === 0;
+                });
+
+                return {
+                  name: _.filter(tags, {title: &#x27;optionName&#x27;})[0].description,
+                  property: _.filter(tags, {title: &#x27;optionProp&#x27;})[0].description
+                };
+              }
+            })
+            .value();
+
+          return option;
+        }
+      })
+      .filter(function(doc) {
+        return doc &#x26;&#x26; doc.length;
+      })
+      .flatten()
+      .value();
+
+  });
+
+  if (cb) {
+    cb(opts);
+  }
+
+  return opts;
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.modernizr.cli" id="apidoc.module.modernizr.cli">module modernizr.cli</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.modernizr.cli.build" id="apidoc.element.modernizr.cli.build">
+        function <span class="apidocSignatureSpan">modernizr.cli.</span>build
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function build() {
+  return _build(generate, generateBanner, pkg).apply(undefined, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+#### Building
+
+A `build` method is exposed for generating custom Modernizr builds. Example:
+
+```javascript
+var modernizr = require(&#x22;modernizr&#x22;);
+
+modernizr.<span class="apidocCodeKeywordSpan">build</span>({}, function (result) {
+  console.log(result); // the build
+});
+```
+
+The first parameter takes a JSON object of options and feature-detects to include. See [`lib/config-all.json`](lib/config-all.json
+) for all available options.
+
+The second parameter is a function invoked on task completion.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.modernizr.cli.metadata" id="apidoc.element.modernizr.cli.metadata">
+        function <span class="apidocSignatureSpan">modernizr.cli.</span>metadata
+        <span class="apidocSignatureSpan">(cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function metadata(cb) {
+  var tests = [];
+  var md = new Remarkable();
+  file.walkSync(viewRoot, function(start, dirs, files) {
+    files.forEach(function(file) {
+      if (file === &#x27;.DS_Store&#x27;) {
+        return;
+      }
+      var test = fs.readFileSync(start + &#x27;/&#x27; + file, &#x27;utf8&#x27;);
+      // TODO :: make this regex not suck
+      var metaRE = /\/\*\!([\s\S]*)\!\*\//m;
+      var matches = test.match(metaRE);
+      var docRE = /\/\*\sDOC([\s\S]*?)\*\//m;
+      var docmatches = test.match(docRE);
+      var depRE = /define\((\[[^\]]*\]),/;
+      var depMatches = test.match(depRE);
+
+      var metadata;
+
+      if (matches &#x26;&#x26; matches[1]) {
+        try {
+          metadata = JSON.parse(matches[1]);
+        } catch (e) {
+          throw new Error(&#x27;Error Parsing Metadata: &#x27; + file + &#x27;\nInput: `&#x27; + matches[1] + &#x27;`&#x27;);
+        }
+      }
+      else {
+        metadata = {};
+      }
+
+      var docs = null;
+
+      if (docmatches &#x26;&#x26; docmatches[1]) {
+        docs = md.render(docmatches[1].trim());
+      }
+
+      metadata.doc = docs;
+
+      var deps = [];
+      var matchedDeps;
+
+      if (depMatches &#x26;&#x26; depMatches[1]) {
+        try {
+          matchedDeps = JSON.parse(depMatches[1].replace(/&#x27;/g, &#x27;&#x22;&#x27;));
+        } catch (e) {
+          throw new Error(&#x27;Couldn\&#x27;t parse dependencies for `&#x27; + file + &#x27;`:\n`&#x27; + depMatches[1] + &#x27;\n`&#x27;);
+        }
+        matchedDeps.forEach(function(dep) {
+          if (dep === &#x27;Modernizr&#x27;) {
+            return;
+          }
+          deps.push(dep);
+        });
+      } else {
+        throw new Error(&#x27;Couldn\&#x27;t find the define for `&#x27; + file + &#x27;`&#x27;);
+      }
+      metadata.deps = deps;
+
+      var baseDir = __dirname.replace(/lib$/, &#x27;&#x27;);
+      metadata.path = &#x27;./&#x27; + (start + &#x27;/&#x27; + file).replace(baseDir, &#x27;&#x27;).replace(/\\/g, &#x27;/&#x27;);
+      metadata.amdPath = metadata.path.replace(/^\.\/feature\-detects/, &#x27;test&#x27;).replace(/\.js$/i, &#x27;&#x27;);
+
+      if (!metadata.name) {
+        metadata.name = metadata.amdPath;
+      }
+
+      var pfs = [];
+      if (metadata.polyfills &#x26;&#x26; metadata.polyfills.length) {
+        metadata.polyfills.forEach(function(polyname) {
+          if (polyfills[polyname]) {
+            pfs.push(polyfills[polyname]);
+          }
+          else {
+            throw new Error(metadata.name + &#x27;: Polyfill not found in `&#x27; + file + &#x27;`: &#x27; + polyname);
+          }
+        });
+      }
+      metadata.polyfills = pfs;
+
+      if (!metadata.async) {
+        metadata.async = false;
+      }
+
+      if (!metadata.notes) {
+        metadata.notes = [];
+      }
+
+      if (!metadata.warnings) {
+        metadata.warnings = [];
+      }
+
+      if (!metadata.caniuse) {
+        metadata.caniuse = null;
+      }
+
+      if (!metadata.cssclass &#x26;&#x26; metadata.property) {
+        metadata.cssclass = metadata.property;
+      } else {
+        metadata.cssclass = null;
+      }
+
+      // Maybe catch a bug
+      if (!metadata.doc &#x26;&#x26; metadata.docs) {
+        metadata.doc = metadata.docs;
+        delete metadata.docs;
+      }
+
+      // If you want markdown parsed code minus the docs and metadata, this&#x27;ll do it.
+      // Off by default for now.
+      // metadata.code =  md.render(&#x27;```javascript\n&#x27; + test.replace(metaRE, &#x27;&#x27;).replace(docRE, &#x27;&#x27;) + &#x27;\n```&#x27;);
+
+      if (!metadata.tags) {
+        metadata.tags = [];
+      }
+
+      if (!metadata.authors) {
+        metadata.authors = [];
+      }
+
+      if (!metadata.knownBugs) {
+        metadata.knownBugs = [];
+      }
+
+      tests.push(metadata);
+    });
+  });
+
+  if (cb &#x26;&#x26; typeof cb == &#x27;function&#x27;) {
+    return cb(tests);
+  }
+  return tests;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.modernizr.cli.options" id="apidoc.element.modernizr.cli.options">
+        function <span class="apidocSignatureSpan">modernizr.cli.</span>options
         <span class="apidocSignatureSpan">(cb, allMetadata)</span>
         </a>
     </h2>
